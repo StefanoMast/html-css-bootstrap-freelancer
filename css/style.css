@@ -32,12 +32,33 @@ header {
     background-color: green;
 }
 
+h2, h4 {
+    text-align: center;
+}
+
+
 .image img {
     width: 100%;
     border-radius: 15px;
+    margin-top: 1.5rem;
 }
 
 .about-content {
     background-color: lightseagreen;
-    margin: 1.5rem 0;
+}
+
+.contact-content {
+    height: 250px;
+    background-color: aqua;
+}
+
+.local-around {
+    background-color: blueviolet;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    background-color: aquamarine;
 }
