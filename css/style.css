@@ -11,7 +11,7 @@ header {
     list-style: none;
 }
 
-.avatar, .title {
+.avatar {
     height: 250px;
     background-color: green;
     display: flex;
@@ -28,5 +28,11 @@ header {
 }
 
 .title {
-    back;
+    height: auto;
+    background-color: green;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 15px;
 }
