@@ -36,3 +36,8 @@ header {
     width: 100%;
     border-radius: 15px;
 }
+
+.about-content {
+    background-color: lightseagreen;
+    margin: 1.5rem 0;
+}
