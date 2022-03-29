@@ -1,0 +1,32 @@
+html {
+    font-size: 100%;
+}
+
+header {
+    height: 80px;
+    background-color: lightskyblue;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.avatar, .title {
+    height: 250px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 30%;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    back;
+}
