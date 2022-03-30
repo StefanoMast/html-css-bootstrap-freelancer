@@ -9,6 +9,7 @@
 /* COMMON */
 html {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ms_container-small {
@@ -28,14 +29,6 @@ header {
     line-height: 80px;
     color: white;
     background-color: var(--ms_secondary-color);
-}
-
-.ms_brand-wrapper {
-    background-color: lightcoral;
-}
-
-.ms_menu-wrapper {
-    background-color: blue;
 }
 
 /* MAIN */
@@ -65,14 +58,18 @@ header {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .fa-bars {
         display: block;
+        align-items: center;
+        margin-top: 2rem;
     }
-
-}   .ms_menu-wrapper ul li {
-    display: none,
+   .ms_menu-wrapper ul li {
+    display: none;
 }
+
+}
+
 
 /* jumbotron */
 .ms_jumbotron {
@@ -81,7 +78,7 @@ header {
 
 /* Portfolio */
 .ms_portfolio-item img {
-    width: 80%;
+    width: 100%;
 }
 
 /*About*/
@@ -155,6 +152,33 @@ footer {
     background-color: var(--ms_secondary-color-light);
     padding: 1rem 0;
     text-align: center;
+}
+
+.around-the-web {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-google-plus-g, .fa-twitter, .fa-linkedin-in {
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    padding: 1rem 1.3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    background-color: white;
+    color: var(--ms_secondary-color-light);
+}
+
+.about-freelancer a {
+    text-decoration: none;
+    color: var(--ms_primary-color);
 }
 
 .footer-bottom {
